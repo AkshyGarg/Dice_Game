@@ -1,6 +1,4 @@
 
-onload = myFunc();
-function myFunc(){
     var x = Math.random();
     var y = Math.random();
     x = Math.floor(x*5)+1;
@@ -22,5 +20,6 @@ function myFunc(){
     {document.querySelector("h1").classList.add("draw");
         document.querySelector("h1").innerHTML = "Draw!";
     }
-}
+
+
     

@@ -1,18 +1,18 @@
 .container ,.con{
   width: 70%;
-  margin: auto;
+  margin-left: 14%;
   text-align: center;
 }
 
 .draw{
-  margin-left: 560px;
+  margin-left: 570px;
 }
 .dice {
   text-align: center;
   display: inline-block;
   height: 250px;
   width: 250px;
-  margin-left: 30px;
+  margin-left: 100px;
 
 }
 
@@ -22,12 +22,15 @@ body {
 
 h6{
   margin: 30px;
+  margin-left: 14%;
   display: inline-block;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 5rem;
   color: #4ECCA3;
 }
+
+
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
@@ -53,4 +56,35 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+  h1{
+    margin: 10px;
+    margin-top: 202px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 2.5rem;
+    color: #4ECCA3;
+    margin-left: 70px;
+  }
+
+  h6{
+    /* margin-top: 132px; */
+    margin-left: 14%;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 1rem;
+    color: #4ECCA3;
+  }
+  .dice{
+    text-align: center;
+    display: inline-block;
+    height: 72px;
+    width: 78px;
+    margin-left: 33px;
+  }
 }
