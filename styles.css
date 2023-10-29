@@ -7,6 +7,9 @@
 .draw{
   margin-left: 570px;
 }
+.refreshMsg{
+  margin-left: 435px;
+}
 .dice {
   text-align: center;
   display: inline-block;
