@@ -12,15 +12,19 @@
     var y1 = document.querySelector(".d2").getAttribute("src");
     if(x>y) {
         document.querySelector("h1").innerHTML = "Player 1 Wins";
+        setTimeout(function(){document.querySelector("h1").innerHTML = "Refresh Me"}, 2000);
     }
     else if(x<y){
         document.querySelector("h1").innerHTML = "Player 2 Wins";
+       setTimeout(function(){document.querySelector("h1").innerHTML = "Refresh Me"}, 2000);
+        
     }
     else
-    {document.querySelector("h1").classList.add("draw");
+    {
+        document.querySelector("h1").classList.add("draw");
         document.querySelector("h1").innerHTML = "Draw!";
+       setTimeout(function(){document.querySelector("h1").innerHTML = "Refresh Me"}, 2000);
     }
-    setTimeout(function(){document.querySelector("h1").innerHTML = "Refresh Me"}, 2000);
 
 
     
