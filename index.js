@@ -20,6 +20,7 @@
     {document.querySelector("h1").classList.add("draw");
         document.querySelector("h1").innerHTML = "Draw!";
     }
+    setTimeout(function(){document.querySelector("h1").innerHTML = "Refresh Me"}, 2000);
 
 
     
